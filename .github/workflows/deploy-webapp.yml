@@ -9,8 +9,8 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # Replace with your App Service name
-  NODE_VERSION: '20.x'
+  AZURE_WEBAPP_NAME: PGwebapp    # Replace with your App Service name
+  NODE_VERSION: '22.x'
 
 jobs:
   build:
